@@ -6,7 +6,9 @@ use app\components\MenuWidget;
 
 $this->title = 'Ай да окна!';
 ?>
-<?= MenuWidget::widget(['tpl'=>'menu']); ?>
+<ul class="catalog" id="accordion-1">
+	<?= MenuWidget::widget(['tpl'=>'menu']); ?>
+</ul>
 
 <section id="slider"><!--slider-->
 		<div class="container">
@@ -763,3 +765,15 @@ $this->title = 'Ай да окна!';
 			</div>
 		</div>
 	</section>
+<script>
+
+    $( ".catalog" ).dcAccordion({
+		eventType: 'click',
+	autoClose: true,
+	saveState: true,
+	disableLink: true,
+	showCount: false,
+	speed: 'fast'
+	});
+
+</script>

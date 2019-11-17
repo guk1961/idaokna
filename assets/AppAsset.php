@@ -38,9 +38,10 @@ class AppAsset extends AssetBundle
         "js/jquery.prettyPhoto.js",
         "js/main.js",
         "js/jquery.cookie.js",
-        "js/jquery.accordion.2.0.js",
+        "js/jquery.dcaccordion.2.7.js",
 
     ];
+    public $jsOptions = ['position' => \yii\web\View::POS_HEAD,];
     public $depends = [
         'yii\web\YiiAsset',
 //        'yii\bootstrap\BootstrapAsset',

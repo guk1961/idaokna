@@ -1,6 +1,17 @@
 /*price range*/
 
- $('#sl2').slider();
+
+
+ $('.catalog').dcAccordion({
+	eventType: 'click',
+	autoClose: false,
+	saveState: true,
+	disableLink: true,
+	showCount: true,
+	speed: 'fast'
+	});
+
+	$('#sl2').slider();
 
 	var RGBChange = function() {
 	  $('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')

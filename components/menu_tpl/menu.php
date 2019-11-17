@@ -1,7 +1,7 @@
-<li><a href="">
+<li><a href="#">
     <?= $category['name']?>
         <?php if(isset($category['childs'])): ?>
-            <span class="badge pull-right"><i class="fa fa-plus"></span>
+<!--            <span class="badge pull-right"><i class="fa fa-plus"></span>-->
         <?php endif; ?>
     </a>
         <?php if(isset($category['childs'])): ?>
