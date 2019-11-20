@@ -136,10 +136,10 @@ $this->title = 'Ай да окна!';
 											</div>
 										</div> -->
 										<?php if($hit->new): ?>
-											<?= Html::img("@web/images/home/new.png}",['alt'=>'Новинка', 'class'=>'new'])?>
+											<?= Html::img("@web/images/home/new.png",['alt'=>'Новинка', 'class'=>'new'])?>
 										<?php endif; ?>
 										<?php if($hit->sale): ?>
-											<?= Html::img("@web/images/home/sale.png}",['alt'=>'Распродажа', 'class'=>'new'])?>
+											<?= Html::img("@web/images/home/sale.png",['alt'=>'Распродажа', 'class'=>'new'])?>
 										<?php endif; ?>
 								</div>
 								<div class="choose">
@@ -554,5 +554,4 @@ $this->title = 'Ай да окна!';
 	showCount: false,
 	speed: 'fast'
 	});
-
 </script>
