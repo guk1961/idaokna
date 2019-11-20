@@ -4,7 +4,7 @@
 
 use app\components\MenuWidget;
 use yii\helpers\Html;
-$this->title = 'Ай да окна!';
+//$this->title = 'Ай да окна!';
 ?>
 
 <section id="slider"><!--slider-->
